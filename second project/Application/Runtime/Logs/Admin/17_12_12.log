@@ -1,0 +1,899 @@
+[ 2017-12-12T08:32:38+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024001s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0440s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-12-12T08:32:38+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-12T08:32:48+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Undefined index: errorInfo C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Undefined index: errorInfo C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:32:49+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:32:59+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='paul' ) LIMIT 1   [ RunTime:0.1160s ]
+
+[ 2017-12-12T08:32:59+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:33:04+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T08:34:05+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:34:11+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T08:34:31+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T08:35:23+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.236013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:35:49+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T08:36:16+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-12T08:59:13+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:59:13+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:59:24+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='paul' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-12T08:59:24+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T08:59:27+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 128 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:02:15+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-12T09:03:17+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:03:31+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.188011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 134 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T09:04:00+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.183010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 133 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T09:04:23+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-12T09:04:45+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:05:25+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:06:50+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:07:09+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:07:20+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:07:44+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.181011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T09:07:53+08:00 ] ::1 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 76 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 129 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

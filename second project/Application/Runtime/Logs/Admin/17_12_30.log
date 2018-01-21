@@ -1,0 +1,2577 @@
+[ 2017-12-30T09:30:08+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = '' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\a56175d991363675ce124a7967aed688fc441e66.file.zhuanjia_info.html.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T09:31:27+08:00 ] ::1 /hospital/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T09:31:27+08:00 ] ::1 /hospital/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-30T09:31:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:02:29+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:02:29+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:13:26+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0624s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T10:13:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T10:16:11+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='cojjj' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `admin` INNER JOIN hospital ON hospital.hos_code = admin.hos_code  WHERE ( admin_name = 'cojjj' )  [ RunTime:0.0000s ]
+
+[ 2017-12-30T10:16:11+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '山东省皮肤病医院' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T10:16:50+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '山东省皮肤病医院' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T10:16:52+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '山东省皮肤病医院' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-12-30T10:17:16+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T10:17:16+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:17:26+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='cojjj' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` INNER JOIN hospital ON hospital.hos_code = admin.hos_code  WHERE ( admin_name = 'cojjj' )  [ RunTime:0.0020s ]
+
+[ 2017-12-30T10:17:26+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '山东省皮肤病医院' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:17:35+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+ERR: 1366:Incorrect integer value: '' for column 'phone' at row 6
+ [ SQL语句 ] : UPDATE `hospital` SET `hos_info`='山东省皮肤病性病防治研究所暨山东省皮肤病医院始建于1955年，',`hos_honor`='医院先后被授予“全国卫生系统先进集体”、“全省卫生系统先进集体”、',`phone`='' WHERE ( hos_name = '山东省皮肤病医院' )
+ERR: 1366:Incorrect integer value: '' for column 'phone' at row 6
+ [ SQL语句 ] : UPDATE `hospital` SET `hos_info`='山东省皮肤病性病防治研究所暨山东省皮肤病医院始建于1955年，',`hos_honor`='医院先后被授予“全国卫生系统先进集体”、“全省卫生系统先进集体”、',`phone`='' WHERE ( hos_name = '山东省皮肤病医院' )
+
+[ 2017-12-30T10:17:58+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+SQL: UPDATE `hospital` SET `hos_info`='山东省皮肤病性病防治研究所暨山东省皮肤病医院始建于1955年，',`hos_honor`='医院先后被授予“全国卫生系统先进集体”、“全省卫生系统先进集体”、',`phone`='1123123' WHERE ( hos_name = '山东省皮肤病医院' ) [ RunTime:0.0030s ]
+
+[ 2017-12-30T10:18:00+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '山东省皮肤病医院' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-30T10:18:08+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '山东省皮肤病医院' )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:12+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '山东省皮肤病医院' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zhuanjia` INNER JOIN hospital ON hospital.hos_code = zhuanjia.hos_code  WHERE ( hos_name = '山东省皮肤病医院' AND k_code = '40' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:15+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '山东省皮肤病医院' )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zhuanjia` INNER JOIN hospital ON hospital.hos_code = zhuanjia.hos_code  WHERE ( hos_name = '山东省皮肤病医院' AND k_code = '39' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:20+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '山东省皮肤病医院' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:21+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '山东省皮肤病医院' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:24+08:00 ] ::1 /hospital/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:24+08:00 ] ::1 /hospital/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:24+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:26+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.8276486749519818
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T10:18:26+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.35930235551684175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.9435128468761507
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5364975872347182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5738990258663048
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.8089509246732631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:27+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.2845172935806799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5472498002044497
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.04943982572795269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.053327868088207664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.34918484426088203
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.8189340246846766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:28+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.10646481845648692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:29+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5731426232050181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:29+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.797785122843093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:29+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.08108301725181088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:29+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.1438463762250961
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:29+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.990083775640346
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T10:18:30+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.29319638553375094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:30+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5377743518782618
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:30+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.9781393197231094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T10:18:30+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg/0.5398391568470673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:19:34+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:19:34+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:19:43+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Undefined index: errorInfo C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Undefined index: errorInfo C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-30T11:19:43+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T11:19:58+08:00 ] 192.168.199.179 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='apple' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-12-30T11:19:58+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T11:20:03+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T11:20:05+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T11:20:08+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:20:15+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T11:21:36+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T11:21:37+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T11:21:38+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:21:39+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T11:21:41+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:22:38+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:22:43+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:22:49+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `admin` WHERE ( hos_code=0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:22:54+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php:95) C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T11:22:57+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hospital` WHERE ( level='三级甲等' )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hospital` WHERE ( level='三级甲等 ' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 130 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 177 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 178 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 177 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 178 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 177 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 178 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 177 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f256278d99ee8e5e7db1858ab055316572340347.file.hos_manage.html.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T11:22:58+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 124 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:23:23+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin` WHERE ( hos_code=0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:23:27+08:00 ] 192.168.199.179 /hospital/index.php/Admin/SystemManager/hos_admin_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE ( hos_code=0 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 147 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\ecd87249e6de935e9e3619a161674d229725478a.file.hos_admin_manage.html.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T11:34:11+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T11:34:12+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2017-12-30T12:56:01+08:00 ] ::1 /hospital/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T12:56:02+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T12:56:09+08:00 ] ::1 /hospital/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` INNER JOIN hospital ON hospital.hos_code = zhuanjia.hos_code  WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-12-30T12:56:10+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T12:56:23+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:56:40+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:56:48+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:56:50+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:57:13+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:57:14+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:57:17+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:57:19+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-30T12:57:36+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:59:08+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T12:59:22+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `zhuanjia` SET `z_name`='Sara',`age`='51',`field`='内科',`z_jianjie`='内科好手' WHERE `z_code` = 10 [ RunTime:0.0070s ]
+
+[ 2017-12-30T12:59:24+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T12:59:29+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:14:08+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:14:10+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php C:\xampp\htdocs\hospital\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php): No such file or directory C:\xampp\htdocs\hospital\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.242014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-30T13:15:04+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0050s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:15:06+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-12-30T13:15:46+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T13:16:00+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:17:25+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-12-30T13:19:27+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:19:59+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:30:09+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.212012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:30:25+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 60 行.
+ERR: 1048:Column 'hos_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qingjia` (`z_name`,`hos_name`,`time`,`reason`) VALUES ('sara',NULL,'2018-01-03','哈哈哈')
+ERR: 1048:Column 'hos_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `qingjia` (`z_name`,`hos_name`,`time`,`reason`) VALUES ('sara',NULL,'2018-01-03','哈哈哈')
+
+[ 2017-12-30T13:33:31+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+SQL: SELECT `hos_name` FROM `zhuanjia` INNER JOIN hospital ON hospital.hos_code = zhuanjia.hos_code  WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `qingjia` (`z_name`,`hos_name`,`time`,`reason`) VALUES ('sara','青岛市中心医院','2018-01-03','哈哈哈') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:33:34+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:35:23+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:35:26+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:35:29+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:36:52+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.297017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:37:12+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0040s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.245015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:37:15+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T13:38:08+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.261015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:39:05+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T13:39:22+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-12-30T13:39:29+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:40:55+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.287016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.287016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:41:25+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-12-30T13:41:37+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0020s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.272015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.272015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T13:41:40+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:41:48+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:42:11+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.237014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:42:13+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:42:17+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:42:27+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/qingjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0030s ]
+SQL: SELECT `day` FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qingjia` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qingjia` WHERE ( z_name = 'sara' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: z_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\f9900f3d8f3c8f618f43d2b6c2809ee954748578.file.qingjia.html.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.244014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.244014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-30T13:42:32+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/guahao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: admin_hos C:\xampp\htdocs\hospital\Application\Admin\Controller\ZhuanjiaManagerController.class.php 第 27 行.
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( z_name = 'sara' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.237014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-12-30T13:42:33+08:00 ] ::1 /hospital/index.php/Admin/ZhuanjiaManager/zhuanjia_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zhuanjia` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zhuanjia` WHERE ( z_name = 'sara' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:44:00+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error1 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 56 行.
+NOTIC: [2] Illegal string offset 'name' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 59 行.
+NOTIC: [2] Illegal string offset 'pwd' C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Uninitialized string offset: 0 C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 66 行.
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\c73415eed9521566291a09c320e3b93d188083cb.file.login.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-12-30T13:44:00+08:00 ] ::1 /hospital/index.php/Admin/Login/verifyImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:44:10+08:00 ] ::1 /hospital/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\xampp\htdocs\hospital\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `login` WHERE ( name='paul' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin` INNER JOIN hospital ON hospital.hos_code = admin.hos_code  WHERE ( admin_name = 'paul' )  [ RunTime:0.0020s ]
+
+[ 2017-12-30T13:44:10+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '青岛大学附属医院' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T13:44:19+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '青岛大学附属医院' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T13:44:22+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/guahao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '青岛大学附属医院' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( h_code = '1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T13:44:27+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/guahao_enter/g_code/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0040s ]
+SQL: UPDATE `guahao` SET `status`='已确认' WHERE ( g_code = '1' ) [ RunTime:0.0080s ]
+
+[ 2017-12-30T13:44:29+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/guahao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '青岛大学附属医院' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( h_code = '1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-30T14:29:34+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/hos_info_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '青岛大学附属医院' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-30T14:29:34+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '青岛大学附属医院' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-30T14:29:36+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/guahao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `guahao` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hospital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hospital` WHERE ( hos_name = '青岛大学附属医院' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `guahao` INNER JOIN zhuanjia ON zhuanjia.z_code = guahao.z_code  WHERE ( h_code = '1' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: admin_id C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 163 行.
+NOTIC: [8] Undefined index: admin_name C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 164 行.
+NOTIC: [8] Undefined index: count C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\732c96578989f00a72fc9534f0210f2f2cffc364.file.guahao.html.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-30T14:29:39+08:00 ] ::1 /hospital/index.php/Admin/HospitalManager/keshi_manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `keshi` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `keshi` INNER JOIN hospital ON hospital.hos_code = keshi.hos_code  WHERE ( hos_name = '青岛大学附属医院' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: error C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 157 行.
+NOTIC: [8] Undefined index: info C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object C:\xampp\htdocs\hospital\Application\Runtime\Cache\cb4642a76a4c32316f9f3712dd4bbc655fcabe3f.file.keshi_manage.html.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

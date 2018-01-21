@@ -1,0 +1,17 @@
+一.安装XAMPP 启动APACHE
+
+二.将项目文件放入 xampp/htdocs/下
+
+三.使用mysql导入数据库文件
+
+四.打开浏览器访问
+localhost:port/hospital/index.php/Index/index.html 
+
+
+账号
+
+医院管理员 paul 123
+系统管理员 apple 123
+专家	  sara 123
+患者     soctt  222
+	Reed  333

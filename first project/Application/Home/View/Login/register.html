@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html>                                                                                                                                         
+	<head>                                                                                                                                     
+		<meta charset="UTF-8">                                                                                                                 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                 
+		<title></title>	                                                                                                                       
+		<link rel="stylesheet" href="/hospital/Public/css/core.css" />                                                                         
+		<link rel="stylesheet" href="/hospital/Public/css/menu.css" />                                                                         
+		<link rel="stylesheet" href="/hospital/Public/css/amazeui.css" />                                                                      
+		<link rel="stylesheet" href="/hospital/Public/css/component.css" />                                                                    
+		<link rel="stylesheet" href="/hospital/Public/css/page/form.css" />                                                                    
+	</head>                                                                                                                                    
+	<body>                                                                                                                                     
+		<div class="account-pages">                                                                                                            
+			<div class="wrapper-page">                                                                                                         
+				<div class="text-center">                                                                                                      
+	                <a href="#" class="logo" style="color: #0f0;">预约挂号个人注册</a>                                                                       
+	            </div>                                                                                                                         
+	                                                                                                                                           
+	            <div class="m-t-40 card-box">                                                                                                  
+	            	<div class="text-center">                                                                                                  
+	                    <h4 class="text-uppercase font-bold m-b-0">注册</h4>                                                                     
+	                </div>                                                                                                                     
+	                <div class="panel-body">                                                                                                   
+	                	<form class="am-form" action="{$smarty.const.__SELF__}" method="POST" enctype="multipart/form-data">                   
+	                		<div class="am-g">                                                                                                 
+	                			<div class="am-form-group">                                                                                    
+	                			 <span style="color:red;">{$error1}</span>                                                                     
+							      <input type="text" class="am-radius"  placeholder="请输入用户名" name="name">                                    
+							      <span style="color:red;">{$errorInfo.name}</span>                                                   
+							    </div>                                                                                                         
+                                                                                                                                               
+							                                                                                                                   
+							    <div class="am-form-group form-horizontal m-t-20">                                                             
+							      <input type="password" class="am-radius"  placeholder="请输入数字字母等随机组合" name="pwd">                                 
+							        <span style="color:red;">{$errorInfo.pwd}</span>                                                    
+							                                                                                                                   
+							    </div> 
+							    <div class="am-form-group form-horizontal m-t-20">
+							    	<input type="password" class="am-radius"  placeholder="请与密码保持一致" name="pwd1">
+							    	<span style="color:red;">{$errorInfo.pwd1}</span>
+							    </div>
+							    <div class="am-form-group form-horizontal m-t-20">
+							    	<input type="text" class="am-radius"  placeholder="请输入身份证号" name="idcard">
+							    	<span style="color:red;">{$errorInfo.idcard}</span>
+							    </div>
+							     <div class="am-form-group form-horizontal m-t-20">                                                            
+							      <input type="text" class="am-radius"  placeholder="输入验证码" name="yzm">
+							      <span style="color:red;">{$errorInfo.yzm}</span>                                        
+							      <img src="{$smarty.const.__CONTROLLER__}/verifyImg" alt=""                                                   
+							      onclick="this.src='{$smarty.const.__CONTROLLER__}/verifyImg/'+Math.random()" />                              
+							      <span style="color:red;">{$error}</span>                                                                     
+							    </div>                                                                                                         
+		                        <div class="am-form-group ">                                                                                   
+		                        	<button type="submit" class="am-btn am-btn-primary am-radius" style="width: 100%;height: 100%;">注册</but
+		                        </div>                                                                                                         
+		                                                                                                                                       
+		                                                                                                                       
+	                		</div>                                                                                                             
+                                                                                                                                               
+	                	</form>                                                                                                                
+							                                                                                                                   
+	                </div>                                                                                                                     
+	            </div>                                                                                                                         
+			</div>		                                                                                                                       
+		</div>                                                                                                                                 
+	</body>                                                                                                                                    
+</html>                                                                                                                                        

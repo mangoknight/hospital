@@ -1,0 +1,521 @@
+<?php /* Smarty version Smarty-3.1.6, created on 2018-01-07 11:20:37
+         compiled from "./Application/Home/View\Appointment\appoint.html" */ ?>
+<?php /*%%SmartyHeaderCode:147355a50be8b8d0c18-83725285%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '254d7d1c2de2d48a7c984836457bbd3b9a3e14e0' => 
+    array (
+      0 => './Application/Home/View\\Appointment\\appoint.html',
+      1 => 1515295167,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '147355a50be8b8d0c18-83725285',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5a50be8bc9d77',
+  'variables' => 
+  array (
+    'doctor' => 0,
+    'error' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5a50be8bc9d77')) {function content_5a50be8bc9d77($_smarty_tpl) {?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="gb2312">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>预约</title>
+
+
+<noscript>
+	<meta http-equiv="refresh" content="0; url=/noscript.htm" />
+</noscript>
+<!--[if lt IE 7]><meta http-equiv="refresh" content="0; url=/YouLose.htm" /><![endif]-->
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/niit/Public/css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="/niit/Public/css/secondary.css" type="text/css" />
+<link rel="stylesheet" href="/niit/Public/css/borain-timeChoice.css">
+<!--font-awesome图标如果项目有就不用，如果没有就要调用-->
+<link rel="stylesheet" type="text/css"
+	href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+<script src="/niit/Public/js/jquery.min.js"></script>
+<script src="/niit/Public/js/borain-timeChoice.js"></script>
+
+<style>
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+form {
+	display: block;
+	margin: 30px 20px;
+}
+
+input {
+	padding: 5px;
+}
+</style>
+
+<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="js/Kunyi.Respond.min.js" ></script><![endif]-->
+<script language="javascript" type="text/javascript"
+	src="/niit/Public/js/KunyiHTML5.min.js"></script>
+<script language="javascript" type="text/javascript"
+	src="/niit/Public/js/Kunyilibrary.js"></script>
+</head>
+<body>
+	<script language="javascript" type="text/javascript"
+		src="/niit/Public/js/Kunyi.Init.js"></script>
+	<header>
+	<div class="topHidden"></div>
+	<div class="toolBase">
+		<div class="BaseMark">
+			<ul>
+				<li class="first"><a href="javascript:void(0);">站点地图</a></li>
+				<li><a href="javascript:void(0);">院长(信访)信箱</a></li>
+				<li><a href="javascript:void(0);"
+					target="_blank">内部OA</a></li>
+				<li><a href="javascript:void(0);">人才招聘</a></li>
+				<li><a href="javascript:void(0);">人事管理</a></li>
+				<li><a href="javascript:void(0);">网上院史馆</a></li>
+				<li><a href="javascript:void(0);">在线留言</a></li>
+				<li><a href="javascript:;"
+					onclick="Kunyi.AddFavorite(window.location,document.title)">加入收藏</a></li>
+			</ul>
+			<div class="language">选择语言</div>
+			<div class="langBtn animated">
+				<i class="flag"></i>中文<i class="downBtn"></i> <a href="javasript:;"><img
+					src="/niit/Public/images/ico_003.png" class="animated" width="13" height="13" />English</a>
+			</div>
+		</div>
+	</div>
+
+	</header>
+	<nav>
+	<div class="navBase">
+		<div class="quickMenuBase" data-type="1">
+			<div class="quickMenu01">快捷菜单</div>
+			
+				<div class="quickMenus">
+					<ul class="firstUl">
+						<li class="first"><a href="javascript:void(0);" class="firstA"><em>就诊指南</em><i
+								class="style01"></i><span></span></a>
+						</li>
+						<li class="first"><a href="javascript:void(0);"
+							target="_blank" class="firstA"><em>预约挂号</em><i
+								class="style02"></i><span></span></a>
+							</li>
+						<li class="first"><a href="javascript:void(0);" class="firstA"><em>出诊安排</em><i
+								class="style03"></i><span></span></a>
+							</li>
+						<li class="first"><a href="javascript:void(0);" class="firstA"><em>专家介绍</em><i
+								class="style04"></i><span></span></a>
+							</li>
+						<li class="first"><a href="javascript:void(0);" class="firstA"><em>专科介绍</em><i
+								class="style05"></i><span></span></a></li>
+						<li class="first"><a href="javascript:void(0);" class="firstA"><em>药学服务</em><i
+								class="style06"></i><span></span></a>
+							</li>
+						<li class="first last"><a href="javascript:void(0);"
+							class="firstA"><em>医保服务</em><i class="style07"></i><span></span></a></li>
+					</ul>
+				</div>
+
+		</div>
+		<div class="nav Inav">
+			<ul>
+				<li class="PMenu"><a href="<?php echo @__MODULE__;?>
+/Index/index" class="PAMenu">首页</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /> <a href="<?php echo @__MODULE__;?>
+/Appointment/myAppointment"
+					id="Nav_AMenu0" class="PAMenu" title="我的预约">我的预约</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a href="javascript:void(0);"
+					id="Nav_AMenu1" class="PAMenu" title="关于我们">就诊指南</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a href="javascript:void(0);"
+					id="Nav_AMenu2" class="PAMenu" title="检验报告">检验报告</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a
+					href="javascript:void(0);" id="Nav_AMenu3" class="PAMenu"
+					title="健康问答">健康问答</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a
+					href="javascript:void(0);" id="Nav_AMenu4" class="PAMenu" title="健康管理">健康管理</a>
+				</li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a href="javascript:void(0);"
+					id="Nav_AMenu5" class="PAMenu" title="新闻动态">新闻动态</a></li>
+				<li class="PMenu"><img src="/niit/Public/images/ico_014.png"
+					class="animated" width="15" height="8" /><a href="javascript:void(0);"
+					id="Nav_AMenu6" class="PAMenu" title="护理园地">护理园地</a></li>
+				<li class="PMenu"><a href="javascript:void(0);"
+					id="Nav_AMenu7" class="PAMenu" title="科室信息">科室信息</a></li>
+				<li class="PMenu"><a href="javascript:void(0);" id="Nav_AMenu8"
+					class="PAMenu">移动端</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+
+	<section class="BaseMark">
+	<div class="bread">
+		您所在的位置<span><a href="<?php echo @__MODULE;?>
+/Index/index">首页</a>><a
+			href="ArticleList-54.html">预约医生</a> > 医生详情</span>
+	</div>
+
+
+
+	<div class="doctorLeft">
+		<img src="/niit/Public/<?php echo $_smarty_tpl->tpl_vars['doctor']->value['dimage'];?>
+" id="DThumb" class="DThumb" width="112"
+			height="150" alt="医生" />
+		<h2 id="H3Name"><?php echo $_smarty_tpl->tpl_vars['doctor']->value['dname'];?>
+</h2>
+		<h3 id="H4Position"><?php echo $_smarty_tpl->tpl_vars['doctor']->value['dtype'];?>
+</h3>
+		<h3 id="H4Position">坐诊时间: <?php echo $_smarty_tpl->tpl_vars['doctor']->value['dday'];?>
+</h3>
+	</div>
+	
+	<h2>预约时间</h2>
+
+
+	<div style="z-index: 1000; margin-top: 50px; margin-left: 300px"
+		class="">
+		
+		<form action="<?php echo @__SELF__;?>
+" method="post" align="center">
+		
+	
+		
+		<table align="center">
+		
+		
+		
+		<tr>
+		
+		<td><span><h3>时间选择</h3></span> </td>
+		<td><input class="start-two" type="text" value="" name="date" required></td>
+		<td style="color:red"><h3><?php echo $_smarty_tpl->tpl_vars['error']->value;?>
+</h3></td>
+		<!-- <c:if test="$<?php echo 'isAvailable'=='no';?>
+">
+		
+		<td style="color:red"><h3>预约时间冲突，请更换时间</h3></td>
+		
+		</c:if>
+		
+		<c:if test="$<?php echo 'isAvailable'=='breach';?>
+">
+		
+		<td style="color:red"><h3>您的违约次数过多，无法完成预约</h3></td>
+		
+		</c:if> -->
+		
+		
+		</tr>
+		
+		<tr>
+		
+		<td><span><h3>病情描述</h3></span></td>
+		<td><textarea style="overflow-x:hidden;overflow-y:hidden;"rows="2" cols="22" name="illness" required></textarea></td>
+		<td><input type="submit" value="预约"></td>
+		</tr>
+		
+		
+		
+		
+		</table>
+		
+		
+		
+			  
+			
+			
+			
+			
+		</form>
+
+
+
+	</div>
+
+	<div></div>
+
+	<div class="doctorRight">
+		<div class='import import1'></div>
+		<div class="title01">
+			<h3>所在科室：</h3>
+			<h1><?php echo $_smarty_tpl->tpl_vars['doctor']->value['ddepartment'];?>
+</h1>
+			<span><a href="Office-11.html" title="呼吸内科">进入科室</a></span>
+		</div>
+		<div class="clear"></div>
+		<div id="DIVContent" class="article intro">
+			<p style="text-align: left;">
+				<span style="font-family: 'Tahoma'; color: #121212; font-size: 9pt;"><font
+					size="4"><?php echo $_smarty_tpl->tpl_vars['doctor']->value['ddescription'];?>
+</font></span>
+				
+				
+			</p>
+			
+			<span></span><span
+				style="font-family: 'Tahoma'; color: #121212; font-size: 9pt;"></span>
+			<p>
+				<br />
+			</p>
+		</div>
+		<!-- <div id="DIVOnDutyInfo" class="visitDate">
+			<div class="title">
+				出诊安排<em>Visits Time</em>
+			</div>
+			<div class="visitList">
+				<div class="time">
+					<span class="green">时段</span>
+					<div class="blue">
+						星期四 <em>2017/1/12</em>
+					</div>
+					<div class="green">
+						星期五 <em>2017/1/13</em>
+					</div>
+					<div class="blue">
+						星期六 <em>2017/1/14</em>
+					</div>
+					<div class="green">
+						星期日 <em>2017/1/15</em>
+					</div>
+					<div class="blue">
+						星期一 <em>2017/1/16</em>
+					</div>
+					<div class="green">
+						星期二 <em>2017/1/17</em>
+					</div>
+					<div class="blue">
+						星期三 <em>2017/1/18</em>
+					</div>
+				</div>
+
+				<div class="am">
+					<span>上午</span><span><img src="images/出诊.png" width="100"
+						height="100" alt="出诊"></span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+				</div>
+				<div class="pm">
+					<span>下午</span><span><img src="images/出诊.png" width="100"
+						height="100" alt="出诊"></span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+				</div>
+			</div>
+		</div> -->
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	</section>
+	<div class="BottomHidden"></div>
+	<div id="QRBase">
+		<div class="BaseMark">
+			<div class="QRBase">
+				<div class="QRList">
+					<ul>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR01.jpg" width="75" height="75" /><label>医院标题APP</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR02.jpg" width="75" height="75" /><label>健康之路APP</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR03.jpg" width="75" height="75" /><label>挂号网APP</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR04.jpg" width="75" height="75" /><label>山西省预约挂号平台Androi客户端</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR05.jpg" width="75" height="75" /><label>山西省预约挂号平台IOS客户端</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR06.jpg" width="75" height="75" /><label>山西预约挂号平台微信号</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR07.jpg" width="75" height="75" /><label>健康之路微信公众号</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR08.jpg" width="75" height="75" /><label>名医网微信公众号</label>
+							</div></li>
+						<li><div>
+								<img src="/niit/Public/pic/pic_QR09.jpg" width="75" height="75" /><label>挂号网微信公众号</label>
+							</div></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<button class="QRClose animated">关闭</button>
+				<div class="BottomHidden"></div>
+			</div>
+		</div>
+	</div>
+	<footer> <img src="images/ico_036.png" width="35" class="load"
+		height="18" id="QRMark" />
+	<div class="menusBase">
+		<div class="BaseMark">
+			<dl>
+				<dt>
+					<img src="/niit/Public/images/ico_006.jpg" class="load" width="36" height="34" /><em>门诊服务</em><span>outpatient
+						services</span>
+				</dt>
+				<dd>
+					<a href="javascript:void(0);" title="预约流程" target="_blank">预约流程</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);" title="门诊须知" target="_blank">门诊须知</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);" title="院内导航" target="_blank">院内导航</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="/niit/Public/images/ico_008.jpg" class="load" width="36" height="34" /><em>住院服务</em><span>hospitalized
+						services</span>
+				</dt>
+				<dd>
+					<a href="javascript:void(0);" title="住院须知" target="_blank">住院须知</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);" title="检查须知" target="_blank">检查须知</a>
+				</dd>
+				<dd>
+					<a href="Article-56.html" title="住院清单" target="_blank">住院清单</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="/niit/Public/images/ico_009.jpg" class="load" width="36" height="34" /><em>体检服务</em><span>examination
+						services</span>
+				</dt>
+				<dd>
+					<a href="javascript:void(0);" title="体检须知" target="_blank">体检须知</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);" title="体检套餐查询" target="_blank">体检套餐查询</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);" title="体检报告查询" target="_blank">体检报告查询</a>
+				</dd>
+			</dl>
+			<div class="QRBtn">
+				<img src="/niit/Public/images/tempQR.jpg" class="load" width="85" height="85" />
+				<span>扫描关注官方微信号</span> <a href="javascript:void(0)" id="BtnQRMore">更多二维码</a>
+			</div>
+
+			<div class="newsPaper">
+				<div class="npTitle">
+					<img src="/niit/Public/images/ico_010.jpg" class="load" width="28" height="39" /><em>省医院报</em><span>内部资料
+						仅供阅读</span>
+				</div>
+				<div class="DChange">
+					<select class="DYear" id="ddlYears"><option value="0">年份</option>
+						<option value="2017">2017年</option>
+						<option value="2016">2016年</option>
+						<option value="2015">2015年</option>
+						<option value="2014">2014年</option></select> <select class="DTime"
+						id="ddlTimes">
+						<option value="0">期数</option>
+					</select>
+				</div>
+				<input class="newsPaperBtn animated" name="btnGoNewsPaper"
+					id="btnGoNewsPaper" value="阅览" type="button" />
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="BottomHidden"></div>
+	<div class="DWeibo">
+		<a href="javascript:;" class="weibo" title="新浪微博">新浪官方微博</a><a
+			href="javascript:;" class="tencent" title="腾讯微博">腾讯官方微博</a>
+		<div class="clear"></div>
+	</div>
+	<div class="urlHidden"></div>
+	<div class="websiteInfo">
+		<div class="info">
+			主办单位：医院标题 &nbsp; &nbsp;综合服务电话：120&nbsp;&nbsp; &nbsp;急救中心电话：120 &nbsp;
+			传真：120 &nbsp; 地 址：地址地址地址 &nbsp;<br /> 版权所有：医院标题
+		</div>
+		<ul>
+			<li class="first"><a href="javascript:void(0);" target="_blank">关于我们</a></li>
+			<li><a href="javascript:void(0);" target="_blank">法律声明</a></li>
+			<li><a href="javascript:void(0);" target="_blank">网站地图</a></li>
+			<li><a href="javascript:void(0);" target="_blank">联系我们</a></li>
+			<li><a href="javascript:void(0);" target="_blank">院长(信访)信箱</a></li>
+		</ul>
+		<div class="clear"></div>
+		<p>
+			&copy;2015-
+			<script language="javascript" type="text/javascript">
+				document.write(new Date().getFullYear());
+			</script>
+			. All Rights Reserved. <a
+				href="javascript:void(0);"
+				target="_blank">备案号0000001 </a>
+		</p>
+		<select id="ddlLinks">
+			<option value="0"><span>友情链接</span> HYPERLINK
+			</option>
+			<option value="javascript:void(0);">中华人民共和国卫生和计划生育委员会</option>
+		</select>
+	</div>
+	</footer>
+	<div id="Footer_CodeDiv">
+		<script type="text/javascript">
+			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://"
+					: " http://");
+			document
+					.write(unescape("%3Cscript src='"
+							+ _bdhmProtocol
+							+ "hm.baidu.com/h.js%3F4a1d36386e8734a5fd29acec9114818d' type='text/javascript'%3E%3C/script%3E"));
+			document
+					.write(unescape("%3Cscript src='"
+							+ _bdhmProtocol
+							+ "hm.baidu.com/h.js%3Fafd2ae44e23648da4e8a81a7b1349be4' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
+	<script language="javascript" type="text/javascript"
+		src="/niit/Public/js/Kunyi.Common.js"></script>
+	<script language="javascript" type="text/javascript"
+		src="/niit/Public/js/Kunyi.Secondary.js"></script>
+
+	<script>
+		//  level分为 YM YMD H HM 四个有效值，分别表示年月 年月日 年月日时 年月日时分,less表示是否不可小于当前时间。年-月-日 时:分 时为24小时制
+		//  为确保控件结构只出现一次，在有需要的时候进行一次调用。
+		onLoadTimeChoiceDemo();
+
+		borainTimeChoice({
+			start : ".start",
+			end : ".end",
+			level : "YM",
+			less : true
+		});
+
+		borainTimeChoice({
+			start : ".start-two",
+			end : "",
+			level : "H",
+			less : false
+		});
+	</script>
+
+</body>
+</html><?php }} ?>
